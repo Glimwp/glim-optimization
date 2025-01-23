@@ -238,7 +238,7 @@ final class Optimization implements Integration {
 
 			$inline_js = <<<JS
 				document.addEventListener( 'DOMContentLoaded', function() {
-					const { request, currentId, object, paged } = glimfseartPreloadViewport;
+					const { request, currentId, object, paged } = glimfsePreloadViewport;
 					const getDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? 'mobile' : 'desktop';
 	
 					const mediaInViewPort = [];
